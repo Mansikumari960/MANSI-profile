@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT ME</title>
+    <style>
+       :root {
+    --main-heading-color: red;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: rgb(228, 220, 220);
+    color: black;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: var(--main-heading-color);
+    text-decoration:underline ;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.content-box {
+    border: 2px solid #ccc;
+    background-color:white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #888;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="submit"] {
+    background-color:lightblue;
+    color: solid black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
+
+iframe {
+    margin-right: 20px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+} 
+    
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile image.jpeg"alt="profile photo">
+        <h1>Mansi kumari</h1>
+        <h2>Fronted web development learner</h2>
+    </header>
+    <section class="content-box" >
+        <h2>About Me</h2>
+        <p>Let me introduce my self- I  am Mansi kumari. currently, i am pursuing  bca(Bachelor in computer application) from IGNOU, I am in my 5th semester.in this course i learn c language, phyton, and currently i am learning web devlopment. i am also prearing for government exam.<br>
+        I love to learn new things . I like to read novel , story which give me idea about life and motivate me to learn new things. currently, I am reading atomic habit whose writer is james clear . This book help me to learn how small habit change your daily life and with the help of this book I start to write coding every day.<br>
+        In my free time i love to do some crafting ,drawing and watching movies, and this is also one of the reason i want to learn fronted web developer because i love to create colorful things.  
+         <p>I believe to live in present because if we do better  in present , future is automatically good . so enjoy every day because no one know  what is happened in future.lastly i want to write that life is what we make it.</p>
+        <p> Thank you.</p> 
+    </section>
+    <article class="content-box">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Reading books</li>
+            <li>coding</li>
+            <li>drawing and crafting</li>
+        </ul>
+    </article>
+    <section class="content-box">
+        <h2>Weekly Learning Schedule</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Math,English</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Math,Science</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>English,Practice HTML</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Practice Basic Project</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Math,Python</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Revise ,Reading books and Watching movies</td>
+            </tr>
+        </table>
+    </section>
+    <section class="content-box">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name"reqired><br>
+            <label for="email id">Email:</label>
+            <input type="email" id="email id" name="email"reqired><br>
+            <input type="submit" value="submit">
+        </form>
+    </section>
+    <section class="content-box">
+        <h2> My Favorite Video</h2>
+        <iframe  width="400" height="315"src="https://www.youtube.com/embed/4SFmCKpvK_k?si=eO5mK1zhty-ee9dd" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/tVzUXW6siu0?si=ZOSSNGLbE9CX12V0" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+</body>
+</html>
